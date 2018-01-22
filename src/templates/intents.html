@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="mui--appbar-height"></div>
+  <div class="mui-container-fluid">
+    <br>
+    <h2>Lista de Intenções</h2>
+    <button id="btnAddIntent" class="mui-btn mui-btn--primary">Nova Intenção</button>
+    <br>    
+    <br>
+    {%- for intent in intents %}
+      <div data-id='{{intent.id}}' class="mui-panel vertically-aligner-intent-div divIntent pointer">
+        <span class='mui--pull-left vertically-aligned-intent-span '>
+          {{intent.name}} ({{intent.utterances.count()}})
+        </span>
+        <button data-id='{{intent.id}}' class='mui-btn mui-btn--danger mui--pull-right btnDeleteIntent'>Apagar</button>
+      </div>
+    {%- endfor %}
+  </div>
+  <script src="/js/jquery-3.2.1.min.js"></script>
+  <script src="/js/intent.js"></script>
+{% endblock %}

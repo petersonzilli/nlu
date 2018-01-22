@@ -1,0 +1,3 @@
+model_checkpoint_path: "C:\\Users\\peter\\Projects\\NLU\\src\\runs\\1516586896\\checkpoints\\model-20"
+all_model_checkpoint_paths: "C:\\Users\\peter\\Projects\\NLU\\src\\runs\\1516586896\\checkpoints\\model-10"
+all_model_checkpoint_paths: "C:\\Users\\peter\\Projects\\NLU\\src\\runs\\1516586896\\checkpoints\\model-20"

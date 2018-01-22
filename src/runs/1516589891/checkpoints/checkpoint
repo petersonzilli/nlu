@@ -1,0 +1,6 @@
+model_checkpoint_path: "C:\\Users\\peter\\Projects\\NLU\\src\\runs\\1516589891\\checkpoints\\model-50"
+all_model_checkpoint_paths: "C:\\Users\\peter\\Projects\\NLU\\src\\runs\\1516589891\\checkpoints\\model-10"
+all_model_checkpoint_paths: "C:\\Users\\peter\\Projects\\NLU\\src\\runs\\1516589891\\checkpoints\\model-20"
+all_model_checkpoint_paths: "C:\\Users\\peter\\Projects\\NLU\\src\\runs\\1516589891\\checkpoints\\model-30"
+all_model_checkpoint_paths: "C:\\Users\\peter\\Projects\\NLU\\src\\runs\\1516589891\\checkpoints\\model-40"
+all_model_checkpoint_paths: "C:\\Users\\peter\\Projects\\NLU\\src\\runs\\1516589891\\checkpoints\\model-50"
